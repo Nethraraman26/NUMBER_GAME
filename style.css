@@ -1,0 +1,86 @@
+body{
+    /* background-color:grey; */
+    font-style:italic;
+    text-align: center;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJodlGpkEkPPMNXjiv0kFFrg0IgAqM9KPfsQ&s);
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.button{
+    height: 40px;
+    width: 173px;
+    background-color: black;
+    color: white;
+    text-align:center;
+    /* padding: 10px 10px; */
+    cursor: pointer;
+    font-size:30px;
+    font-weight:500;
+}
+.button:hover{
+    background-color:red;
+    color:black;
+}
+.logo{
+    font-size:80px;
+    font-weight:800;
+    /* color:black */
+}
+ input{
+    width:172px;
+    height:30px;
+    text-align:center;
+    font-size:1.3rem;
+}
+#input_container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+} 
+#submit{ 
+     /* margin-left:10px; */
+    margin-top:2px; 
+    color:white; 
+ }
+#message{
+    display:none;
+    font-size:50px;
+    background-color: violet;
+    color:black;
+    padding: 5px 5px;
+}
+#Lives-text{
+    font-size:40px;
+    color:black;
+}
+.win {
+    text-align:center;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJodlGpkEkPPMNXjiv0kFFrg0IgAqM9KPfsQ&s);
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.lose{
+    text-align:center;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJodlGpkEkPPMNXjiv0kFFrg0IgAqM9KPfsQ&s);
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
